@@ -1,5 +1,7 @@
 #!/usr/bin/perl
 
+# Date: 2008
+
 #--------Ustawienie stalych uzytkownika-------------------
 
 my $net     = "192.168.0.";		# Adres sieci 
