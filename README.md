@@ -1,1 +1,3 @@
 # Traffic
+
+Skrypt PERL uruchamiany z w linuksie działającym jako router dla pojedynczej sieci lokalnej. Skrypt tworzy kolejki TBF dla pposzxczególnych użytkowników, analizując z okresem 1[s] poszczególne transfery. Na ich podstawie dynamicznie ustala pasmo dla następnego okresu skryptu. Skrypt ma bardzo szybka reakcję na zwolnienie pasma, które przekazuje innym uzytkownikom, jednoczesnie blokując użytkowników mogących zapełniać pasmo ponad określony poziom. Współczynniki określają poziom wolnego pasma do podziału, jak i płynny dział pomiedzy równym podziałem a maksymalnym wykorzystaniem pasma.
